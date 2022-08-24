@@ -1,0 +1,14 @@
+.quiz {
+    text-align: center;
+}
+
+.topWrapper {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question {
+    margin-top: 30px;
+    font-size: 20px;
+}

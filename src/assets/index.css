@@ -1,0 +1,37 @@
+@import url("./normalize.css");
+
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+}
+
+#root > div {
+  background-color: #f6b0b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.button {
+  border-radius: 5px;
+  max-width: 150px;
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #cc7878;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #c77373;
+}
+
+.button:active {
+  background-color: #be6c6c;
+}

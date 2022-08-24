@@ -1,0 +1,16 @@
+.answer {
+    text-align: initial;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.success {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}
